@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>绍宋漫画-绍宋漫画全集阅读指南与剧情介绍</title>
+    <meta name="description" content="绍宋漫画是改编自人气历史小说的漫画作品，以南宋抗金为背景，讲述现代历史系大学生赵榛穿越成为宋高宗赵构后的热血奋斗故事。本站提供绍宋漫画剧情介绍、人物解析、章节阅读指南与常见问题解答。">
+    <meta name="keywords" content="绍宋漫画,绍宋,绍宋漫画全集,绍宋漫画阅读,绍宋漫画剧情,赵榛,赵构,南宋漫画,历史穿越漫画">
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background-color: #f5f2ed;
+            color: #2c2c2c;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* 顶部品牌区 */
+        .site-header {
+            background: linear-gradient(135deg, #3e2c1c 0%, #6b4f2e 100%);
+            padding: 20px 0;
+            border-bottom: 4px solid #c9a87c;
+        }
+
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .brand h1 {
+            font-size: 2rem;
+            color: #f5e6d0;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .brand p {
+            color: #d4b896;
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+
+        .search-box {
+            display: flex;
+            background: #fff;
+            border-radius: 30px;
+            padding: 4px 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .search-box input {
+            border: none;
+            outline: none;
+            padding: 8px 16px;
+            font-size: 0.95rem;
+            width: 220px;
+            border-radius: 30px;
+            background: transparent;
+        }
+
+        .search-box button {
+            background: #c9a87c;
+            border: none;
+            border-radius: 30px;
+            padding: 8px 20px;
+            color: #2c1a0a;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .search-box button:hover {
+            background: #e0c49a;
+        }
+
+        /* 导航 */
+        .main-nav {
+            background: #2c1e10;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .main-nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .main-nav li a {
+            display: block;
+            padding: 14px 24px;
+            color: #e8d5b8;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+            border-bottom: 3px solid transparent;
+        }
+
+        .main-nav li a:hover {
+            color: #fff;
+            background: #4a3520;
+            border-bottom-color: #c9a87c;
+        }
+
+        /* 首屏横幅 */
+        .hero {
+            background: linear-gradient(rgba(30, 20, 10, 0.7), rgba(30, 20, 10, 0.7)), url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM4MDY0NDIiIHN0cm9rZS13aWR0aD0iMSI+PHBhdGggZD0iTTIgMTJoMjBNMTIgMnYyME0yIDJoMjB2MjBIMnoiLz48L3N2Zz4=');
+            background-color: #3a2a1a;
+            background-blend-mode: overlay;
+            padding: 80px 0;
+            text-align: center;
+            color: #f0e0cc;
+        }
+
+        .hero h2 {
+            font-size: 2.6rem;
+            margin-bottom: 16px;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            color: #d4bc9c;
+        }
+
+        .hero-btn {
+            display: inline-block;
+            background: #c9a87c;
+            color: #2c1a0a;
+            padding: 14px 36px;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .hero-btn:hover {
+            background: #e0c49a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+
+        /* 主要内容区 */
+        .main-content {
+            padding: 50px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #3e2c1c;
+            margin-bottom: 10px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: #c9a87c;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #7a6a58;
+            margin-bottom: 40px;
+            font-size: 1rem;
+        }
+
+        /* 卡片网格 */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid #e8ddd0;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .card-image {
+            height: 200px;
+            background: linear-gradient(135deg, #8b6f4e, #5a4630);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #f5e6d0;
+            font-size: 3rem;
+            font-weight: bold;
+            letter-spacing: 4px;
+            position: relative;
+        }
+
+        .card-image.placeholder {
+            background: linear-gradient(135deg, #7a5c3a, #4a3520);
+        }
+
+        .card-image span {
+            background: rgba(0,0,0,0.3);
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-body h3 {
+            color: #3e2c1c;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .card-body p {
+            color: #5a4a3a;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+        }
+
+        .card-tag {
+            display: inline-block;
+            background: #f0e6d8;
+            color: #6b4f2e;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-right: 6px;
+            margin-bottom: 6px;
+        }
+
+        /* 剧情介绍区块 */
+        .story-section {
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            border-left: 5px solid #c9a87c;
+        }
+
+        .story-section h2 {
+            color: #3e2c1c;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .story-section p {
+            margin-bottom: 16px;
+            color: #4a3a2a;
+        }
+
+        .story-section ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+
+        .story-section li {
+            margin-bottom: 8px;
+        }
+
+        /* 人物介绍 */
+        .characters {
+            background: #faf6f0;
+            padding: 30px;
+            border-radius: 16px;
+            margin-bottom: 40px;
+        }
+
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .character-item {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border-top: 4px solid #6b8f4e;
+        }
+
+        .character-item:nth-child(2) {
+            border-top-color: #c9a87c;
+        }
+
+        .character-item:nth-child(3) {
+            border-top-color: #8b6f4e;
+        }
+
+        .character-item:nth-child(4) {
+            border-top-color: #5a8f9e;
+        }
+
+        .character-item:nth-child(5) {
+            border-top-color: #a05a5a;
+        }
+
+        .character-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #e0d0b8, #c9a87c);
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            color: #3e2c1c;
+            font-weight: bold;
+        }
+
+        .character-item h4 {
+            color: #3e2c1c;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .character-item p {
+            color: #6a5a4a;
+            font-size: 0.9rem;
+        }
+
+        /* 阅读指南 */
+        .guide-steps {
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+        }
+
+        .steps-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            counter-reset: step;
+        }
+
+        .step-item {
+            position: relative;
+            padding: 30px 20px 20px;
+            background: #faf6f0;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .step-item::before {
+            counter-increment: step;
+            content: counter(step);
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 35px;
+            height: 35px;
+            background: #c9a87c;
+            color: #2c1a0a;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .step-item h3 {
+            color: #3e2c1c;
+            margin-bottom: 10px;
+            font-size: 1.15rem;
+        }
+
+        .step-item p {
+            color: #5a4a3a;
+            font-size: 0.95rem;
+        }
+
+        /* 常见问题 */
+        .faq-section {
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            margin-bottom: 40px;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #e8ddd0;
+            padding: 20px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: #3e2c1c;
+            font-size: 1.1rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: color 0.3s;
+        }
+
+        .faq-question:hover {
+            color: #8b6f4e;
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: #c9a87c;
+            transition: transform 0.3s;
+        }
+
+        .faq-item.active .faq-question::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            display: none;
+            padding-top: 15px;
+            color: #5a4a3a;
+            line-height: 1.8;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        /* 注意事项 */
+        .notice-box {
+            background: #fdf8f0;
+            border: 2px dashed #c9a87c;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+
+        .notice-box h3 {
+            color: #6b4f2e;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+
+        .notice-box ul {
+            margin-left: 20px;
+            color: #5a4a3a;
+        }
+
+        .notice-box li {
+            margin-bottom: 8px;
+        }
+
+        /* 页脚 */
+        .site-footer {
+            background: #2c1e10;
+            color: #b8a088;
+            padding: 40px 0;
+            margin-top: 30px;
+        }
+
+        .footer-inner {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+
+        .footer-col h4 {
+            color: #e8d5b8;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer-col ul li a {
+            color: #b8a088;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-col ul li a:hover {
+            color: #e0c49a;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #4a3520;
+            margin-top: 30px;
+            color: #8a7a6a;
+            font-size: 0.9rem;
+        }
+
+        /* 响应式 */
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            .search-box {
+                width: 100%;
+            }
+
+            .search-box input {
+                flex: 1;
+                width: auto;
+            }
+
+            .hero h2 {
+                font-size: 1.8rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .main-nav li a {
+                padding: 12px 16px;
+                font-size: 0.9rem;
+            }
+
+            .section-title {
+                font-size: 1.6rem;
+            }
+
+            .story-section,
+            .guide-steps,
+            .faq-section {
+                padding: 25px;
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .character-grid {
+                grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .brand h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero {
+                padding: 50px 0;
+            }
+
+            .hero h2 {
+                font-size: 1.4rem;
+            }
+
+            .main-nav ul {
+                justify-content: space-around;
+            }
+
+            .main-nav li a {
+                padding: 10px 10px;
+                font-size: 0.8rem;
+            }
+
+            .step-item {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <h1>绍宋漫画</h1>
+                <p>历史穿越佳作 · 热血南宋复兴之路</p>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="搜索章节或角色..." aria-label="搜索">
+                <button type="button">搜索</button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#story">剧情介绍</a></li>
+            <li><a href="#characters">主要人物</a></li>
+            <li><a href="#chapters">章节阅读</a></li>
+            <li><a href="#guide">阅读指南</a></li>
+            <li><a href="#faq">常见问题</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <h2>绍宋漫画：一场穿越八百年的中兴之梦</h2>
+                <p>当现代历史系大学生赵榛穿越成靖康之变后的宋高宗赵构，他能否力挽狂澜，改写南宋偏安一隅的命运？这部兼具历史厚度与热血叙事的人气漫画，正在等待你的探索。</p>
+                <a href="#chapters" class="hero-btn">开始阅读</a>
+            </div>
+        </section>
+
+        <div class="main-content container">
+            <!-- 核心内容区 -->
+            <section id="story" class="story-section">
+                <h2>《绍宋漫画》讲了一个什么故事？</h2>
+                <p>《绍宋漫画》改编自同名人气历史穿越小说，讲述了一位现代历史系大学生赵榛，在一次意外中穿越到南宋初年，成为刚刚经历靖康之变、被金军追击至海上避难的宋高宗赵构。面对山河破碎、社稷倾危的局面，赵榛凭借自己深厚的历史知识，决心改变南宋积贫积弱的命运。</p>
+                <p>漫画的核心魅力在于“历史蝴蝶效应”的展现——赵榛利用对历史走向的预知，逐步推行改革，重用岳飞、韩世忠等抗金名将，力图收复失地，实现北伐中兴。但历史的车轮并非轻易可以扭转，来自内部的保守势力、金国的强大压力，以及每一个看似微小却足以改变历史进程的抉择，都让故事充满张力与悬念。</p>
+                
+                <h3 style="color:#6b4f2e; margin-top:25px; margin-bottom:15px;">漫画与原作小说的关系</h3>
+                <p>绍宋漫画是在原作小说基础上进行的视觉化改编。漫画版在保留小说主线剧情和关键对话的同时，通过画面语言强化了战争场面的气势与人物情感的细腻表达。对于已经读过小说的读者，漫画提供了一种更直观的沉浸体验；而对于初次接触故事的读者，漫画则是了解这部作品的绝佳入口。</p>
+                
+                <div class="notice-box">
+                    <h3>💡 阅读前需要了解的时代背景</h3>
+                    <ul>
+                        <li><strong>靖康之变（1127年）：</strong>金军攻陷北宋都城东京（今开封），徽钦二帝被俘，北宋灭亡。</li>
+                        <li><strong>建炎南渡：</strong>赵构在南京应天府（今商丘）即位，后一路南迁至临安（今杭州），史称南宋。</li>
+                        <li><strong>绍兴和议（1141年）：</strong>南宋与金签订屈辱和约，以淮水—大散关为界，向金称臣纳贡。</li>
+                        <li><strong>历史中的赵构：</strong>真实历史上的宋高宗赵构在初期也曾起用主战派，但后期偏向求和，并最终以“莫须有”罪名杀害岳飞。</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 人物介绍 -->
+            <section id="characters" class="characters">
+                <h2 class="section-title">主要人物</h2>
+                <p class="section-subtitle">这些关键人物共同构成了绍宋漫画波澜壮阔的历史画卷</p>
+                <div class="character-grid">
+                    <div class="character-item">
+                        <div class="character-avatar">赵</div>
+                        <h4>赵榛 / 赵构</h4>
+                        <p>主角，穿越而来的历史系大学生。他既有现代人的思维与知识，又必须适应帝王身份的重重束缚。性格坚毅，善于谋划，内心始终燃烧着改变历史的火焰。</p>
+                    </div>
+                    <div class="character-item">
+                        <div class="character-avatar">岳</div>
+                        <h4>岳飞</h4>
+                        <p>南宋抗金名将，忠勇无双。在漫画中，他成为主角最信赖的军事支柱，率岳家军北伐，屡建奇功。他的命运因穿越者的到来而走向不同的方向。</p>
+                    </div>
+                    <div class="character-item">
+                        <div class="character-avatar">韩</div>
+                        <h4>韩世忠</h4>
+                        <p>与岳飞齐名的抗金将领，为人豪爽，治军严谨。在黄天荡之战等重大战役中发挥关键作用，是主角北伐计划中的重要力量。</p>
+                    </div>
+                    <div class="character-item">
+                        <div class="character-avatar">秦</div>
+                        <h4>秦桧</h4>
+                        <p>南宋初年宰相，历史上主张求和的代表人物。在漫画中，他是主角推行北伐政策时遇到的主要内部阻力之一，其政治手腕与复杂动机令人深思。</p>
+                    </div>
+                    <div class="character-item">
+                        <div class="character-avatar">吴</div>
+                        <h4>吴玠 / 吴璘</h4>
+                        <p>在川陕战场抵御金军的兄弟名将。他们稳固了西部防线，为南宋争取了战略空间，是漫画中不可忽视的军事力量。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 章节阅读区 -->
+            <section id="chapters">
+                <h2 class="section-title">漫画章节阅读指南</h2>
+                <p class="section-subtitle">绍宋漫画目前仍在持续连载中，以下为已发布的章节内容概览</p>
+                
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-image placeholder"><span>第1卷</span></div>
+                        <div class="card-body">
+                            <h3>《惊变·南渡》</h3>
+                            <p>穿越初醒，面对金军追击与朝廷溃散，赵榛被迫登上逃亡的船只。他必须迅速认清现实，利用自己对历史的了解寻找生机。</p>
+                            <span class="card-tag">开篇</span>
+                            <span class="card-tag">逃亡</span>
+                            <span class="card-tag">适应</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image placeholder"><span>第2卷</span></div>
+                        <div class="card-body">
+                            <h3>《定策·中兴》</h3>
+                            <p>立足临安后，赵榛开始暗中布局。他提拔主战派官员，整顿军备，并初次尝试与岳飞等将领建立联系，谋划北伐蓝图。</p>
+                            <span class="card-tag">朝堂</span>
+                            <span class="card-tag">改革</span>
+                            <span class="card-tag">布局</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image placeholder"><span>第3卷</span></div>
+                        <div class="card-body">
+                            <h3>《烽火·北伐》</h3>
+                            <p>北伐序幕拉开，岳家军等各路宋军开始主动出击。战场上硝烟弥漫，然而朝堂之上的暗流也在涌动，秦桧等求和派的阻挠日益明显。</p>
+                            <span class="card-tag">战争</span>
+                            <span class="card-tag">北伐</span>
+                            <span class="card-tag">冲突</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-image placeholder"><span>第4卷</span></div>
+                        <div class="card-body">
+                            <h3>《风云·变局》</h3>
+                            <p>随着北伐的推进，国际形势与内部矛盾交织。金国的反扑、南宋朝廷的派系斗争，以及穿越者带来的未知变数，让局势愈发复杂。</p>
+                            <span class="card-tag">权谋</span>
+                            <span class="card-tag">转折</span>
+                            <span class="card-tag">悬念</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 阅读指南 -->
+            <section id="guide" class="guide-steps">
+                <h2 class="section-title">如何更好地阅读绍宋漫画？</h2>
+                <p class="section-subtitle">这几个步骤能帮助你更快融入故事，获得最佳阅读体验</p>
+                
+                <div class="steps-list">
+                    <div class="step-item">
+                        <h3>了解历史背景</h3>
+                        <p>提前了解靖康之变、南宋初年的政治军事格局，能帮助你更深刻理解主角面临的困境与抉择。</p>
+                    </div>
+                    <div class="step-item">
+                        <h3>关注人物关系</h3>
+                        <p>漫画中人物关系错综复杂，建议留意主角与岳飞、韩世忠等武将，以及与秦桧等文臣之间的互动。</p>
+                    </div>
+                    <div class="step-item">
+                        <h3>品味细节伏笔</h3>
+                        <p>作者在漫画中埋下了许多历史细节与伏笔，比如某些对话暗示了真实历史中的事件走向，值得反复品味。</p>
+                    </div>
+                    <div class="step-item">
+                        <h3>配合地图阅读</h3>
+                        <p>战争场面涉及大量地理信息，有条件的话可以配合南宋地图阅读，更能体会战场调度的精妙之处。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 常见问题 FAQ -->
+            <section id="faq" class="faq-section">
+                <h2 class="section-title">常见问题解答</h2>
+                <p class="section-subtitle">关于绍宋漫画，读者们最关心的问题都在这里</p>
+
+                <div class="faq-item">
+                    <div class="faq-question">绍宋漫画的更新时间是多久一次？</div>
+                    <div class="faq-answer">绍宋漫画的更新频率并不完全固定，通常受制作进度与平台排期影响。一般来说，漫画会保持每周或每两周更新一话的节奏。建议关注官方漫画平台或社交媒体账号，以获取最新的更新通知。</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">漫画版与小说版有哪些主要区别？</div>
+                    <div class="faq-answer">漫画版在核心剧情上忠实于原著小说，但在叙事节奏上进行了适合漫画媒介的调整。部分长篇对话被精炼为画面表达，战争场面更加直观。此外，漫画有时会增加一些小说中未详细描写的侧面场景，让人物形象更加丰满。总体而言，漫画是小说故事的精华浓缩与视觉升华。</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">绍宋漫画适合哪些读者？</div>
+                    <div class="faq-answer">绍宋漫画适合对历史题材感兴趣的漫画读者，尤其是喜欢穿越、权谋、战争元素的人群。此外，对于喜欢《明朝那些事儿》等历史通俗作品的读者，这部漫画也能提供类似的阅读快感。漫画中对于历史人物和事件的演绎具有一定的戏剧性，建议抱着娱乐与思考并重的态度阅读。</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">漫画目前有多少话？是否已经完结？</div>
+                    <div class="faq-answer">截至撰写本文时，绍宋漫画仍在连载中，已经发布了数十话内容，并仍在持续更新。具体的章节数量会随着连载推进而变化，建议通过官方渠道查看最新目录。故事目前已经进入中期或后期阶段，主线脉络逐渐清晰。</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">在哪里可以阅读到正版的绍宋漫画？</div>
+                    <div class="faq-answer">绍宋漫画的版权方通常会在国内各大主流漫画平台（如哔哩哔哩漫画、腾讯动漫、快看漫画等）进行正版授权发布。支持正版是让创作者持续产出的最好方式，建议读者通过上述平台搜索“绍宋漫画”进行阅读。</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">漫画中涉及的历史内容是否准确？</div>
+                    <div class="faq-answer">绍宋漫画基于真实历史背景进行艺术创作，其中的主要历史人物、重大事件时间线基本符合史实框架。但为了戏剧冲突和故事张力，作者在人物性格、具体事件细节以及对话上进行了艺术加工和虚构。建议将漫画视为一部“历史可能性”的探索作品，而非严格的历史教科书。</div>
+                </div>
+            </section>
+
+            <!-- 相关主题推荐 -->
+            <section class="story-section" style="background:#faf6f0;">
+                <h2>与绍宋漫画相关的推荐内容</h2>
+                <p>如果你喜欢《绍宋漫画》的穿越历史题材，以下这些作品或许也能引起你的兴趣：</p>
+                <ul style="margin-top:15px;">
+                    <li><strong>《临高启明》</strong>——现代工业党人穿越到明末的群像穿越小说，强调技术与社会改造。</li>
+                    <li><strong>《庆余年》</strong>——融合穿越、权谋与武林的架空历史故事，人气极高。</li>
+                    <li><strong>《明朝那些事儿》</strong>——以通俗笔法讲述明朝历史的经典读物，可补充历史背景知识。</li>
+                    <li><strong>《新宋》</strong>——讲述现代历史学家穿越到北宋王安石变法时期的故事，与绍宋有异曲同工之妙。</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-col">
+                    <h4>关于绍宋漫画</h4>
+                    <p style="line-height:1.8;">绍宋漫画是一部以南宋初年历史为背景的穿越题材漫画，通过现代人的视角重新审视那段充满屈辱与抗争的历史，探讨个人意志与历史洪流的关系。</p>
+                </div>
+                <div class="footer-col">
+                    <h4>内容导航</h4>
+                    <ul>
+                        <li><a href="#story">剧情介绍</a></li>
+                        <li><a href="#characters">主要人物</a></li>
+                        <li><a href="#chapters">章节阅读</a></li>
+                        <li><a href="#guide">阅读指南</a></li>
+                        <li><a href="#faq">常见问题</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>历史参考</h4>
+                    <ul>
+                        <li><a href="javascript:void(0);">靖康之变</a></li>
+                        <li><a href="javascript:void(0);">建炎南渡</a></li>
+                        <li><a href="javascript:void(0);">绍兴和议</a></li>
+                        <li><a href="javascript:void(0);">岳飞北伐</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 绍宋漫画爱好者指南 · 本页面仅提供信息参考与作品介绍，漫画版权归原作者及出品方所有</p>
+                <p style="margin-top:5px;">请支持正版漫画 · 让创作者持续产出优秀作品</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ 交互：点击问题展开/收起答案
+        document.addEventListener('DOMContentLoaded', function() {
+            var faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(function(item) {
+                var question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', function() {
+                        var isActive = item.classList.contains('active');
+                        // 关闭所有 FAQ 项目（可选，每次只展开一个）
+                        faqItems.forEach(function(otherItem) {
+                            otherItem.classList.remove('active');
+                        });
+                        if (!isActive) {
+                            item.classList.add('active');
+                        }
+                    });
+                }
+            });
+
+            // 搜索框简单交互（非功能性，仅作为演示）
+            var searchBtn = document.querySelector('.search-box button');
+            var searchInput = document.querySelector('.search-box input');
+            if (searchBtn && searchInput) {
+                searchBtn.addEventListener('click', function() {
+                    var query = searchInput.value.trim();
+                    if (query) {
+                        alert('您正在搜索：' + query + '\n（演示页面，不执行真实搜索）');
+                    } else {
+                        alert('请输入搜索关键词');
+                    }
+                });
+                searchInput.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        searchBtn.click();
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+  </html>
